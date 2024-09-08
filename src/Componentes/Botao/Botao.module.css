@@ -1,0 +1,22 @@
+.botao {
+  border: 1px solid var(--preta);
+  padding: 0.5rem 0.75rem;
+  width: 6rem;
+  border-radius: 0 1rem 1rem 0;
+  outline: none;
+  cursor: pointer;
+  color: var(--cinza);
+  background-color: var(--verde);
+  font-weight: 530;
+}
+.botao:hover {
+  color: var(--preta);
+}
+.botao[tipo="primario"] {
+  background-color: var(--verde);
+  
+}
+.botao[tipo="secundario"] {
+  background-color: var(--rosa);
+  
+}

@@ -1,0 +1,7 @@
+.campoTexto {
+  border: 1px solid var(--preta);
+  padding: 0.5rem 0.75rem ;
+  width: 25rem;
+  border-radius: 1rem 0 0 1rem;
+  outline: none;
+}
