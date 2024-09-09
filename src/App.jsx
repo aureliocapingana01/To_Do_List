@@ -1,16 +1,9 @@
-
-import { Cabecalho, Conteudo, Footer } from "./Componentes";
-import { Home } from "./Pages";
-
+import { Router } from "./Router";
 
 const App = () => {
   return (
     <>
-      <Cabecalho />
-      <Conteudo>
-        <Home />
-      </Conteudo>
-      <Footer autor='Aurélio Capingana'/>
+      <Router />
     </>
   );
 };

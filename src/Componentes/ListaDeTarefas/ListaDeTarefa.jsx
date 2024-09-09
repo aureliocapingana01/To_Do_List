@@ -9,6 +9,7 @@ const ListaDeTarefa = () => {
   ];
   return (
     <ul className={style.ul}>
+      <h1>Tarefas</h1>
       {tarefas.map((item) => (
         <ItemTarefas key={item.id} nomeTarefa={item.nome} />
       ))}

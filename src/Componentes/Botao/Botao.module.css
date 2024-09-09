@@ -7,16 +7,14 @@
   cursor: pointer;
   color: var(--cinza);
   background-color: var(--verde);
-  font-weight: 530;
 }
 .botao:hover {
   color: var(--preta);
+  font-weight: 550;
 }
 .botao[tipo="primario"] {
   background-color: var(--verde);
-  
 }
 .botao[tipo="secundario"] {
   background-color: var(--rosa);
-  
 }

@@ -1,1 +1,1 @@
-export * from './ItemTarefas'
+export * from "./ItemTarefas";
