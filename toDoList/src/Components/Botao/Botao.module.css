@@ -1,0 +1,20 @@
+.botao {
+  padding: 5px 10px;
+  color: var(--cinza);
+  border-style: none;
+  border-radius: 0 5px 5px 0;
+  border-bottom: 2px solid var(--preto);
+  box-shadow: 0 0 0 0;
+  outline: none;
+}
+.botao[tipo="primary"] {
+  background: var(--btnPrimary);
+}
+.botao[tipo="secundary"] {
+  background: var(--btnSecundary);
+}
+
+.botao:hover {
+  background: var(--btnSecundary);
+  cursor: pointer;
+}

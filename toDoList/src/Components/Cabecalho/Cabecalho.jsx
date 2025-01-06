@@ -1,10 +1,10 @@
-import Style from './Cabecalho.module.css'
+import Style from "./Cabecalho.module.css";
 
 const Cabecalho = () => {
   return (
     <div className={Style.cabecalho}>
       <h1>
-        To Do 
+        To Do
         <span> List</span>
       </h1>
     </div>
