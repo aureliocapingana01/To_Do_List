@@ -1,0 +1,38 @@
+:root {
+  --font-family: Arial, sans-serif;
+
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+
+  --cinza: #ebebec;
+  --btnPrimary: #1e3a5a;
+  --btnSecundary: #16a31a;
+  --preto: #272727;
+}
+
+html, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: 1rem;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+  color: var(--fundo);
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: var(--btnprimary);
+}
+a:hover {
+  background-color: var(--btnsecundary);
+}
+
+body {
+  background: var(--cinza);
+  height: 100%;
+}
