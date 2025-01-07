@@ -1,9 +1,13 @@
 .cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: var(--cinza);
   background-color: var(--preto);
   padding: 0.6rem 2rem;
 }
 .cabecalho h1,
+.cabecalho a,
 .cabecalho span {
   font-size: 1.5rem;
 }

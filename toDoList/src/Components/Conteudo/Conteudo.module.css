@@ -5,3 +5,13 @@
   padding: 2rem;
   gap: 50px;
 }
+
+@media (min-width:350px){
+  /* Estilizações CSS */
+  .conteudo {
+   
+    padding: 1rem 0;
+    gap: 30px;
+  }
+  
+}

@@ -1,0 +1,10 @@
+.sobreNos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.sobreNos h1 {
+  font-size: 25px;
+}

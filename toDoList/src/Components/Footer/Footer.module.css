@@ -1,25 +1,43 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-top: 1px solid var(--preto);
   background-color: var(--preto);
   color: var(--cinza);
   padding: 0.9rem 2rem;
   bottom: 0;
   left: 0;
-  height: 50px;
+  height: 50px; 
   position: fixed;
   width: 100%;
 }
-.footer h1,
+.footer h3,
 .footer span {
-  font-size: 14px;
+  font-size: 16px;
 }
 .footer p {
   display: flex;
+  font-size: 16px;
   justify-content: space-between;
 }
 .footer span {
   margin: 0 5px;
   color: var(--btnSecundary);
+}
+
+@media (min-width: 350px) {
+  /* Estilizações CSS */
+  .footer {
+    padding: 0.9rem;
+
+    /* height: 500px; */
+  }
+  .footer h3,
+  .footer span {
+    font-size: 10px;
+  }
+  .footer p {
+    gap: 5px;
+  }
 }

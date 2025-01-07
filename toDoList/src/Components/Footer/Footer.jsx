@@ -1,7 +1,6 @@
 import Style from "./Footer.module.css";
 
 const Footer = (props) => {
-  
   const { autor } = props;
   const dataAtual = new Date().getFullYear();
 
@@ -16,11 +15,9 @@ const Footer = (props) => {
         <span> {dataAtual} </span>
       </p>
       <p>
-        <h3>
-          <a target="_blank" href="https://github.com/aureliocapingana01">
-            Github
-          </a>
-        </h3>
+        <a target="_blank" href="https://github.com/aureliocapingana01">
+          Github
+        </a>
       </p>
     </div>
   );

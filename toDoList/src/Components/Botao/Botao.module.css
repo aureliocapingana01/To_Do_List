@@ -18,3 +18,18 @@
   background: var(--btnSecundary);
   cursor: pointer;
 }
+
+@media (min-width:350px){
+  /* Estilizações CSS */
+  .botao {
+    padding: 5px 10px;
+    font-size: 12px;
+    /* color: var(--cinza);
+    border-style: none;
+    border-radius: 0 5px 5px 0;
+    border-bottom: 2px solid var(--preto);
+    box-shadow: 0 0 0 0;
+    outline: none; */
+  }
+  
+}
